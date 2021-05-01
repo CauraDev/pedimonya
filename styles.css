@@ -1,0 +1,425 @@
+/*Amarillo F7DE82, Azul 0C4DA2, Blanco FFFFFF, Hueso F3F3F3*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.fuente-linda{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container-div{
+    width: 100vw;
+    max-width: 100%;
+}
+#seccion-amarilla{
+    background-color: #F7DE82;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+#seccion-amarilla_container{
+    width: 75%;
+    height: 75%;
+    margin-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#seccion-amarilla_container header{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#seccion-amarilla_container header img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: 0%;
+  
+}
+#seccion-amarilla_container header nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#seccion-amarilla_container header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+}
+#seccion-amarilla_container header nav ul li{
+    color: #0C4DA2;
+    font-weight: 700;
+}
+#seccion-amarilla_container section{
+    width: 100%;
+    height: 60%;
+    display: flex;
+
+}
+#seccion-amarilla_divtexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#seccion-amarilla_divtexto img{
+    height: 33%;
+    width: 100%;
+    object-fit: contain;
+    object-position: 0%;
+
+}
+#seccion-amarilla_divtexto p{
+    height: 57%;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+#seccion-amarilla_buttondiv{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+#seccion-amarilla_buttondiv button{
+    width: 45%;
+    height: 75%;
+    border: none;
+    background-color: #0C4DA2;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+    
+}
+
+#seccion-amarilla_divimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#seccion-amarilla_divimg img{
+    width: 100%;
+    height: 110%;
+    object-fit: contain;
+    object-position: right;
+}
+
+
+#seccion-azul{
+    background-color: #0C4DA2;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#seccion-azul_container{
+    width: 75%;
+    height: 75%;
+    margin: 2% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#seccion-azul_container h2{
+    text-align: center;
+    color: #F7DE82;
+    width: 100%;
+    font-size: 40px;
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+#seccion-azul_container h4{
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+#seccion-azul_container section{
+    height: 60%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: flex-end;
+    margin-top: 15px;
+    
+}
+.card_azul{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_azul img{
+    height: 50%;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+.card_azul p{
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+#seccion-cards{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+#seccion-cards_container{
+    width: 72%;
+    height: 85%;
+    margin: 2% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#seccion-cards_container header{
+    width: 100%;
+    height: 10%;
+}
+#seccion-cards_container header h2{
+    text-align: center;
+    color: #0C4DA2;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0px;
+}
+#seccion-cards_container section{
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: end;
+}
+#seccion-cards_container section article{
+    height: 90%;
+    width: 65%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.seccion-cards_imgdiv{
+    width: 80%;
+    height: 40%;
+}
+.seccion-cards_imgdiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.seccion-cards_pdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.seccion-cards_pdiv p{
+    color: #0C4DA2;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px;
+    
+}
+.seccion-cards_spandiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-cards_spandiv span{
+    color: #0C4DA2;
+    font-weight: 900;
+    font-size: 25px;
+}
+.seccion-cards_buttondiv{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+.seccion-cards_buttondiv button{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #F7DE82;
+    border-radius: 10px;
+    font-weight: 700;
+}
+#seccion-carrito{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+#seccion-carrito_container{
+    width: 70%;
+    height: 90%;
+}
+#seccion-carrito_container header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 15%;
+}
+#seccion-carrito_container header h2{
+    color: #0C4DA2;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 1%;
+}
+#seccion-carrito_container section{
+    height: 75%;
+    width: 100%;
+}
+#seccion-carrito_boxcontainer{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 95%;
+    border-radius: 25px;
+}
+#seccion-carrito_ulcontainer{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#seccion-carrito_ulcontainer ul{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin-bottom: 0%;
+
+}
+#seccion-carrito_ulcontainer ul li{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    color: #0C4DA2;
+    font-size: 25px;
+    font-weight: 500;
+}
+#separador{
+    border-color: #0C4DA2;
+    width: 90%;
+}
+#seccion-carrito_totalcontainer, #seccion-carrito_buttoncontainer{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#seccion-carrito_totalcontainer p{
+    width: 90%;
+    text-align: right;
+    font-size: 25px;
+    color: #0C4DA2;
+}
+#span-total{
+    font-weight: 900;
+    margin-right: 2%;
+}
+#seccion-carrito_buttoncontainer button{
+    width: 35%;
+    height: 55%;
+    border: none;
+    background-color: #F7DE82;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#0C4DA2;
+    justify-content: space-evenly;
+    margin: 0px;
+    align-items: center;
+    height:200px;
+}
+
+#div-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lista-redes{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 35vw;
+
+}
+.icono-redes{
+    color: white;
+
+}
+#copyright{
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
